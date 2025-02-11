@@ -1,0 +1,8 @@
+img{
+    height: 92px; /*ALTURA*/
+}
+a{
+    text-decoration: none; /*Decoração*/
+    color:rgb(32,33,36); /*Cor Texto*/
+    font-size: 13px; /*Tamanho Fonte*/
+}
