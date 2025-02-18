@@ -3,6 +3,8 @@
 *{/*UNIVERSAL*/
     margin: 0;/*MARGEM*/
     padding: 0;/*ESPAÇAMENTO INTERNO*/
+    font-family: arial, sans-serif;
+    font-size: 13px; /*tamanho da fonte*/
 }
 
 
@@ -29,4 +31,10 @@ a{
 }
 footer{/*Seletor da tag Footer/Rodapé*/
     background-color: #f2f2f2;/*Cor de fundo*/
+}
+.caixa-rodape{
+    padding: 15px 30px;
+}
+.caixa-rodape--borda{
+    border-bottom: 1px solid #dadce0;
 }
