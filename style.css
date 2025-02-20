@@ -1,40 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
 
+img{             /*estilo das imagens*/
+    height: 92px;/*altura*/
+    
+}
 
-*{/*UNIVERSAL*/
-    margin: 0;/*MARGEM*/
-    padding: 0;/*ESPAÇAMENTO INTERNO*/
-    font-family: arial, sans-serif;
-    font-size: 13px; /*tamanho da fonte*/
+a{/*teg link/ acordo */
+    text-decoration: none;/*torou decoraçao do texto */
+    color: var(--gm3-sys-color-on-surface, #1f1f1f);/*cor do texto */
+    font-size: 13px;/*tamanho da fonte */
+    font-family: Arial, Helvetica, sans-serif;/*tipo/familia da fonte */
+   
+}
+
+a{/*teg link/ acordo */
+    text-decoration: none;/*torou decoraçao do texto */
+    color: var(--gm3-sys-color-on-surface, #1f1f1f);/*cor do texto */
+    font-size: 13px;/*tamanho da fonte */
+    font-family: Arial, Helvetica, sans-serif;/*tipo/familia da fonte */
+}
+/*Main Principal*/
+.caixa-pesquisa{
+    display: flex;
+    width: 583px;/*Largura*/
+    padding: 10px 14px;
+    align-items: center;/*Alinhando Os Itens*/
+    gap: 13px; /*Espaçamento Emtre Os Elementos Filhos*/
+    border: 1px solid #dfe1e5;/*Borda*/
+    border-radius: 100px; /*Raio Da Borda*/
+}
+.caixa-icones{
+    display: flex;
+    align-items: center;/*Alinhando Na Vertical*/
+    gap: 16px;/*Espaçamento Entre Os Itens*/
+}
+.input-pesquisa{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.icone-lupa{
+    width: 20px; /*Largura*/
+    fill: #9aa0a6;
+}
+.icone-teclado{
+    width: 16px;/**/
+    height: 12px;/*Altura*/
+}
+.icone-colorido{
+    width: 24px; /*Largura*/
 }
 
 
-
-img{ /*Estilo de tag imagem*/
-    height: 92px; /*ALTURA*/
-}
-a{
-    text-decoration: none; /*Decoração*/
-    color:rgb(32,33,36); /*Cor Texto*/
-    font-size: 13px; /*Tamanho Fonte*/
-    font-family: sans-serif;/*tipo/familia*/
-}
-.botao-login{
-    background-color: #1a73e8;/*cor plano de fundo*/
-    color: white; /*cor de texto*/
-   padding: 13px 12px; /*espaçamento interno*/
-   border-radius: 100px;/*raio da borda*/
-}
-
-.icone-produtos{/*CLASSE DE ICONES*/
-   width:24px ; /*largura*/
-   fill: #444746; /*cor preenchimento*/
-}
-footer{/*Seletor da tag Footer/Rodapé*/
-    background-color: #f2f2f2;/*Cor de fundo*/
+/*Rodape*/
+footer{/*seletor da teg footer/roda pe */
+    background-color: #f2f2f2;/*cor de fundo */
+    letter-spacing: .1rem;
+    font-family:  14px,Arial,sans-serif;
+    padding: 0px 20px;
+    
+    
 }
 .caixa-rodape{
     padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
 }
-.caixa-rodape--borda{
-    border-bottom: 1px solid #dadce0;
+.caixa-rodape-borda{
+    border-bottom: 1px solid #dadce0;/* borda inferior */
 }
+.caixa-link{
+    display: flex;
+    gap: 30px;
+
+}
+
+/*cabeçalho*/
+header{
+     display:flex;
+     justify-content: flex-end;
+     align-items: center;
+     gap: 15px;
+     padding: 10px 14px; 
+}
+.botao-loguin{
+    background-color: rgb(44, 44, 255);/*cor de fundo */
+    font-family: Arial, Helvetica, sans-serif;/*cor do texto */
+    color: white;/*estaçamento interno */
+    padding: 13px 12px;/*peso da fonte */
+    border-radius: 40px;/*raio da borada (curvatura)*/
+    
+}
+.icone-produtos{
+    width:24px;
+}
+    
